@@ -1,0 +1,59 @@
+{
+  "Figure" :
+  {
+    "Description" : "2 intersecting squares, one of which rotated by 45 degrees",
+    "Points" :
+	  [
+	    {
+	      "name" : "A",
+		  "x" : 2,
+   	      "y" : 4
+		},
+	    {
+	      "name" : "B",
+		  "x" : 4,
+   	      "y" : 4
+		},
+	    {
+	      "name" : "C",
+		  "x" : 2,
+   	      "y" : 2
+		},
+		{
+		  "name" : "D",
+		  "x" : 4,
+		  "y" : 2
+		},
+		{
+	      "name" : "E",
+		  "x" : 3,
+   	      "y" : 4.5
+		},
+		{
+	      "name" : "F",
+		  "x" : 4.5,
+   	      "y" : 3
+		},
+		{
+	      "name" : "G",
+		  "x" : 1.5,
+   	      "y" : 3
+		},
+		{
+	      "name" : "H",
+		  "x" : 3,
+   	      "y" : 1.5
+		}
+	  ],
+  
+    "Segments" :
+      [
+	    {"A" : ["B", "C"] },
+	    {"B" : ["D"] },
+	    {"C" : ["D"] },
+	    {"E" : ["F", "G"] },
+	    {"F" : ["H"] },
+	    {"G" : ["H"] }
+      ]
+  }
+}
